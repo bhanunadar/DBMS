@@ -1,0 +1,84 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <title>CHUTKIMEBECHO</title>
+   <style>
+   body{
+     marign:0;
+   }
+   
+   </style>
+</head>
+<body>
+   <div id="header">
+   <div id="container">
+      <div id="headertext">
+	  <center>
+	  <h1 id="title">
+	    <EM>CHUTKIMEBECHO</EM>
+	  </h1>
+	  <h1 style="color:BLACK; font-size:25px;">
+	    <marquee>BUY PROPERTY !! SELL PROPERTY!!</marquee>
+		   
+		
+	  </h1>
+	  </center>
+	  </div>
+	                    	  </div>
+	  </div>
+	    
+	<div id="main">
+	     
+	      <table>
+		    <tr>
+			<td width="10%">
+			<img src="images/img4.jpg" id="img4"/>
+			</td>
+			<td width="30%" style="padding-bottom:100px; "align="justify">
+			      <h2>Already a Member? Sign in below! </h2>
+				  <form action="../php/login.php" method="POST">
+				     <input type="text" name="email" min="5" max="25" placeholder="Email" required  /><br /><br />
+                                    
+				   
+					 <input type="password" name="password_login" min="8" max="25"" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter,
+					and at least 8 or more characters" required /><br /><br />
+					 <input type="submit" name="login" value="Login"/ >
+				  </form>
+				
+
+				  
+				  
+				  
+		    </td>
+			<td width="50%" style="padding-left:200px; "align="justify">
+			    <h2>Sign Up Below</h2>
+				<form action="../php/signup.php" method="POST">
+				    <input type="text" name="name" min="6" max="30"  placeholder="Name"  title="Maximum Limit Of First Name is 25 Character" required /><br /><br />
+					
+					
+					
+					<input type="email" name="email" min="6" max="50" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"  required /><br /><br />
+					   
+						  
+					
+					
+					<input type="password" name="password" min="8" max="25" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+					title="Must contain at least one number and one uppercase and lowercase letter,
+					and at least 8 or more characters" required /><br /><br />
+					
+					<input type="password" name="password2" min="8" max="25" placeholder="Re-Enter Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+					title="Must contain at least one number and one uppercase and lowercase letter,
+					and at least 8 or more characters" required/><br /><br />
+					<input type="text" name="phone"  min="10" max="13" placeholder="Phone No."  title="Maximum Limit Of 10 digits"  required/><br /><br />
+					<input type="submit" name="reg" value="Sign Up!" >
+			     </form>
+			 </td>
+			<td width="10%">
+			<img src="images/img3.jpg" id="img"/>
+			</td>
+			</tr>
+		  </table>
+		
+   </div>
+</body>
+</html>

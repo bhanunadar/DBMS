@@ -1,0 +1,121 @@
+#header{
+      background-image:url(images/img2.jpg);
+	  background-size:cover;
+	  background-repeat:no-repeat;
+	  height:400px;
+	  width:100%;
+   }
+   #container{
+     marign:auto;
+	 height:200px;
+   }
+   input[type="text"]{
+	background-color:#ffffff;
+	border:2px solid blue;
+	padding:5px;
+	width:200px;
+	margin-bottom:3px;
+	margin-top:0px;
+	outline:none;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+input[type="text"]:hover{
+	border: 2px solid orange;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+input[type="password"]{
+	background-color:#ffffff;
+	border:2px solid blue;
+	padding:5px;
+	width:200px;
+	margin-bottom:3px;
+	margin-top:0px;
+	outline:none;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+
+input[type="password"]:hover{
+	border: 2px solid orange;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+input[type="email"]{
+	background-color:#ffffff;
+	border:2px solid blue;
+	padding:5px;
+	width:200px;
+	margin-bottom:3px;
+	margin-top:0px;
+	outline:none;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+input[type="email"]:hover{
+	border: 2px solid orange;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+}
+input[type="submit"]{
+	background-color:blue;
+	border:2px solid blue;
+	font-size:15px;
+	color:#ffffff;
+	padding:5px;
+	margin-bottom:3px;
+	margin-top:3px;
+	border-radius:7px;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+	
+}
+input[type="submit"]:hover{
+	background-color:orange;
+	border:2px solid blue;
+	font-size:15px;
+	color:#ffffff;
+	padding:5px;
+	margin-bottom:3px;
+	margin-top:3px;
+	border-radius:7px;
+	-moz-border-radius:15px; /* Firefox */
+    -webkit-border-radius: 15px; /* Safari, Chrome */
+    -khtml-border-radius: 15px; /* KHTML */
+    border-radius: 15px; /* CSS3 */
+    behavior:url("border-radius.htc");
+	
+}
+	#title{
+	  	font-family:Arial , Helvetica, Sans-serif;
+	font-size:50px;
+	padding:10px;
+	color:white;
+	font-weight:50;
+
+	}
+h2{
+  color:blue;
+}
